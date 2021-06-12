@@ -18,7 +18,7 @@ void setup() {
   
   WiFiManager wifimanager;
   Serial.println("Connecting...");
-  wifimanager.autoConnect("Alat Pendeteksi Asap", "12345678");
+  wifimanager.autoConnect("IoT Gas Detector", "12345678");
   Serial.println("Connected");
 }
 
